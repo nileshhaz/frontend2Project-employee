@@ -48,7 +48,7 @@ function display(){
         const btn = document.createElement("button");
         btn.classList.add("btn", "btn-danger", "rounded-pill", "ms-3");
         btn.innerText = "Delete User";
-        btn.onclick = () => deleteEmployee(index);
+        btn.onclick = () => del(index);
 
         empRow.appendChild(empDiv);
         empRow.appendChild(btn);
