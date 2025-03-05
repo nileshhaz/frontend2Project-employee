@@ -28,9 +28,9 @@ btn.addEventListener("click",(event)=>{
     
     display()
 
-    document.getElementById("input1") = ""
-    document.getElementById("input2") = ""
-    document.getElementById("input3") = ""
+    document.getElementById("input1").value = ""
+    document.getElementById("input2").value = ""
+    document.getElementById("input3").value = ""
 })
 
 function display(){
